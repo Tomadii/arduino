@@ -168,7 +168,7 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 
   initDisplay();
-  wlan();
+  // wlan();
   // webserver();
 
   dht.begin();
