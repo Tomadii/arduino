@@ -26,7 +26,7 @@ int rpm = 0;
   const char* ssid = "Testnetz";
   const char* password = "28545169310270570382";
 
-  // WebServer mit Port
+  //WebServer mit Port
   AsyncWebServer server(80);
 
   // DHT
@@ -168,8 +168,8 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 
   initDisplay();
-  // wlan();
-  // webserver();
+  wlan();
+  webserver();
 
   dht.begin();
   
