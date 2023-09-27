@@ -169,7 +169,7 @@ void setup() {
 
   initDisplay();
   wlan();
-  webserver();
+  // webserver();
 
   dht.begin();
   
